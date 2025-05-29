@@ -65,7 +65,7 @@ Nếu bước này có vấn đề, hãy dùng Phần 2B bên dưới.
 2. **Thiết lập môi trường:**
 
 - Mở **Anaconda Prompt** (tìm trong Start menu)
-- Điều hướng đến "thư mục gốc của project" bằng lệnh như `cd C:\Users\YourUsername\Documents\Projects\llm_engineering` (sửa đường dẫn cho đúng). Dùng `dir` để kiểm tra xem có các thư mục con từng tuần học chưa.
+- Điều hướng đến "thư mục gốc của project" bằng lệnh như `cd C:\Users\YourUsername\Documents\Projects\nlp-llm` (sửa đường dẫn cho đúng). Dùng `dir` để kiểm tra xem có các thư mục con từng tuần học chưa.
 - Tạo môi trường: `conda env create -f environment.yml`
 - **Nếu gặp lỗi ArchiveError, nguyên nhân là do giới hạn 260 ký tự – xem lưu ý số 3 phía trên**
 - Đợi vài phút để cài các package – nếu lần đầu dùng Anaconda có thể mất đến 30 phút hoặc lâu hơn tùy internet. Nếu chạy quá 1h15', hoặc lỗi khác, hãy chuyển sang Phần 2B.  
@@ -75,7 +75,7 @@ Bạn sẽ thấy dòng lệnh có tiền tố `(llms)`, nghĩa là đã kích h
 
 3. **Khởi động Jupyter Lab:**
 
-- Trong Anaconda Prompt, từ thư mục `llm_engineering`, gõ: `jupyter lab`
+- Trong Anaconda Prompt, từ thư mục `nlp-llm`, gõ: `jupyter lab`
 
 ...Jupyter Lab sẽ mở trong trình duyệt. Nếu chưa biết Jupyter Lab, tôi sẽ giải thích sau! Giờ hãy đóng tab jupyter lab, đóng Anaconda prompt, và chuyển sang Phần 3.
 
@@ -91,7 +91,7 @@ Python 3.12 cũng dùng được, nhưng (tính đến 2/2025) Python 3.13 **ch�
 Nếu cần cài/đổi version, tải tại:  
 https://www.python.org/downloads/
 
-2. Chuyển tới "thư mục gốc của project" với lệnh như `cd C:\Users\YourUsername\Documents\Projects\llm_engineering`. Dùng `dir` để kiểm tra thư mục con của các tuần học.  
+2. Chuyển tới "thư mục gốc của project" với lệnh như `cd C:\Users\YourUsername\Documents\Projects\nlp-llm`. Dùng `dir` để kiểm tra thư mục con của các tuần học.  
 
 Tạo môi trường ảo mới với lệnh:  
 `python -m venv llms`

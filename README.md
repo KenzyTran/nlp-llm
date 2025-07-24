@@ -365,11 +365,20 @@ class Tester:
 
 | Method | Average Error | RMSLE | Hit Rate | Training Time | Memory Usage |
 |--------|---------------|-------|----------|---------------|--------------|
-| Linear Reg | ~$X | ~X.XX | ~X% | Minutes | Low |
-| RAG Search | ~$X | ~X.XX | ~X% | None | Medium |
-| GPT-4o-mini | ~$X | ~X.XX | ~X% | ~30 min | API |
-| Llama Base | ~$X | ~X.XX | ~X% | None | 4GB |
-| Llama Fine-tuned | ~$X | ~X.XX | ~X% | ~2 hours | 4GB |
+| Random | ~$340 | ~1.72 | 11.6% | Minutes | Low |
+| Human | ~$127 | 1 | 32% | Minutes | Low |
+| Constant | $145.51 | 1.22 | 16.8% | Minutes | Low |
+| Linear Reg + Features | ~$139.34 | 1.17 | 15.6% | Minutes | Low |
+| Linear Reg + BagofWords | ~$113.6 | 0.99 | 24.8% | Minutes | Low |
+| Linear Reg + word2vec | ~$116.76 | 1.07 | 24.4% | Minutes | Low |
+| SVR + document_vector | ~$111.99 | 0.9 | 28% | Minutes | Medium |
+| Random Forest | ~$97 | ~X.XX | ~X% | None | Medium |
+| GPT-4o-mini | $79.58 | 0.59 | 52% | ~8 min | API |
+| GPT-4o | $75.92 | 0.75 | 58% | ~10 min | API |
+| Claude 3 | $100.83 | 0.6 | 50.8% | ~10 min | API |
+| GPT Fine Tuned | $91.45 | 0.68 | 44% | ~20 min | API |
+| Llama Base | $395.72 | 1.49 | 28% | None | 4GB |
+| Llama Fine-tuned | $51.17 | 0.43 | 69.6% | ~6 hours | 4GB |
 
 ### Insights và Learning
 
